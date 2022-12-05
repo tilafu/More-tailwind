@@ -11,14 +11,16 @@
     <main class="box-border">
         <header class="flex">
             <nav class="flex sticky items-center justify-between px-2 gap-2">
+
                 <div class="flex items-center font-normal text-black uppercase px-2 bg-gradient-to-r from-yellow-500 to-yellow-400">
-                    <img src="img/icons8-railway-station-100.png" alt="railway-station" width="50px"  class="p-1">
-                    <h3>International<span class="font-bold"> Rescue</span> Committee</h3>
+                    <img src="img/icons8-railway-station-100.png" alt="railway-station" width="50px"  class="p-1 md:w-16 w-14">
+                    <h3 class="hidden md:flex">International<span class="font-bold"> Rescue</span> Committee</h3>
                 </div>
                 <div class="flex flex-1 items-center justify-center bg-gradient-to-r from-yellow-500 to-yellow-400 ml-2">
+                    
                     <div class="menu-items group">
                         <span class=""> About Us </span>
-                        <div class="hidden group-hover:flex gap-x-4 px-4 bg-yellow-200 absolute top-full left-0 whitespace-nowrap rounded-b-md pt-3 text-left">
+                        <div class="hidden group-hover:flex px-4 bg-yellow-200 absolute top-full left-0 whitespace-nowrap rounded-b-md pt-3 text-left">
                             <div class="font-extralight p-2">
                                 <div>Who We Are</div>
                                 <ul class="">
@@ -86,16 +88,29 @@
                     </div>
                     <div class="menu-items group">
                         <span> How To Help </span>
-                        <div class="flex absolute top-full whitespace-nowrap right-0 bg-yellow-200 rounded-md p-4">
+                        <div class="hidden group-hover:flex absolute top-full whitespace-nowrap right-0 bg-yellow-200 rounded-md p-4">
                             <div>
                                 <span class="font-extralight">Give</span>
                                 <ul class="font-medium">
-                                    <li>Donate Monthly</li>
-                                    <li>Start A Fundraising Campaign</li>
-                                    <li>Make A Planned Gift</li>
-                                    <li>Streaming & Gaming</li>
-                                    <li>Make a Tribute Gift</li>
-                                    <li>Rescue Gift</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Donate Monthly</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Start A Fundraising Campaign</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Make A Planned Gift</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Streaming & Gaming</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Make a Tribute Gift</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Rescue Gift</li>
+
+                                </ul>
+
+                            </div>
+                            <div>
+                                <span class="font-extralight">Give</span>
+                                <ul class="font-medium">
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Take Action</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Become a Corporate Partner</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Attend An Event</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Volunteer</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Sponsor A Refugee</li>
+                                    <li class="px-4 py-4 hover:bg-yellow-500">Careers</li>
 
                                 </ul>
 
@@ -105,34 +120,11 @@
                     </div>
                     <div class="menu-items">
                         <span> News And Stories </span>
-                        <div class="absolute flex">
-                            <div class="hidden group-hover:flex absolute left-0 top-full bg-yellow-200 gap-8 pt-4 px-4 whitespace-nowrap ">
-                                <div class="">
-                                    <span class="font-extralight pb-2 ">Where We Focus</span>
-                                    <ul class="list-none font-medium">
-                                        <li class="hover:bg-yellow-500 p-4 pr-40">Economic Wellbeing</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-40">Education</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-40">Health</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-40">Empowerment</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-40">Safety</li>
-                                    </ul>
-                                </div>
-
-                                <div class="">
-                                    <span class="font-extralight pb-2">Our Approach</span>
-                                    <ul class="list-none font-medium">
-                                        <li class="hover:bg-yellow-500 p-4 pr-20">Women And Girls</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-20">Policy And Advocacy</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-20">How We Use Evidence</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-20">Reports And Resources</li>
-                                        <li class="hover:bg-yellow-500 p-4 pr-20">Airbel Impact Lab</li>
-                                    </ul>
-                                </div>    
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
-                <div class="flex items-center justify-end bg-gradient-to-r from-yellow-500 to-yellow-400 px-4 gap-2">
+                <div class="block md:hidden">mobile</div>
+                <div class="hidden md:flex items-center justify-end bg-gradient-to-r from-yellow-500 to-yellow-400 px-4 gap-2">
                     <div class=""><span>Search</span></div>
                     <div class="flex flex-1"><span>Donate</span></div>
                 </div>
