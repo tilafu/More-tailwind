@@ -4,9 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer{
+@layer base{
     html{
         font-family: 'Quicksand', sans-serif;
+    }
+}
 
+@layer components{
+    .menu-items{
+        @apply hover:box-border relative flex h-full items-center p-4 cursor-pointer hover:bg-yellow-200 transition-colors ease-in-out hover:border-t-gray-800 duration-500 hover:border-t-4
     }
 }
